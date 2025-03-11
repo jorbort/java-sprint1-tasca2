@@ -48,9 +48,6 @@ Capturando excepciones personalizadas:
 - Scanner para entrada de datos
 - Manejo de excepciones personalizadas
 
-## Requisitos
-- JDK 8 o superior
-- IDE Java (recomendado)
 
 ## Instalación
 1. Clonar el repositorio
