@@ -7,9 +7,9 @@ class Entrance {
 
     public Entrance() {}
 
-    public static byte readByte(String p_message) {
+    public static byte readByte(String message) {
         while (true) {
-            System.out.println(p_message);
+            System.out.println(message);
             try {
                 Byte input = reader.nextByte();
                 reader.nextLine();
@@ -21,9 +21,9 @@ class Entrance {
         }
     }
 
-    public static int readInt(String p_message) {
+    public static int readInt(String message) {
         while (true) {
-            System.out.println(p_message);
+            System.out.println(message);
             try {
                 int input = reader.nextInt();
                 reader.nextLine();
@@ -35,9 +35,9 @@ class Entrance {
         }
     }
 
-    public static float readFloat(String p_message) {
+    public static float readFloat(String message) {
         while (true) {
-            System.out.println(p_message);
+            System.out.println(message);
             try {
                 String input = reader.nextLine();
                 if (input.contains(".")) throw new InputMismatchException("");
@@ -50,9 +50,9 @@ class Entrance {
         }
     }
 
-    public static double readDouble(String p_message) {
+    public static double readDouble(String message) {
         while (true) {
-            System.out.println(p_message);
+            System.out.println(message);
             try {
                 String input = reader.nextLine();
                 if (input.contains(".")) throw new InputMismatchException("");
@@ -65,9 +65,9 @@ class Entrance {
         }
     }
 
-    public static char readChar(String p_message) {
+    public static char readChar(String message) {
         while (true) {
-            System.out.println(p_message);
+            System.out.println(message);
             try {
                 String input = reader.nextLine();
                 if (input.length() != 1) throw new BadInputException(
@@ -80,9 +80,9 @@ class Entrance {
         }
     }
 
-    public static String readString(String p_message) {
+    public static String readString(String message) {
         while (true) {
-            System.out.println(p_message);
+            System.out.println(message);
             try {
                 String input = reader.nextLine();
                 if (input.length() < 2) throw new BadInputException(
@@ -95,9 +95,9 @@ class Entrance {
         }
     }
 
-    public static boolean readYesNo(String p_message) {
+    public static boolean readYesNo(String message) {
         while (true) {
-            System.out.println(p_message);
+            System.out.println(message);
             try {
                 String input = reader.nextLine();
                 if (input.length() != 1) throw new BadInputException(

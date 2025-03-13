@@ -7,8 +7,8 @@ class Sale {
 
     public Sale() {}
 
-    public void addProduct(Product p_product) {
-        products.add(p_product);
+    public void addProduct(Product product) {
+        products.add(product);
     }
 
     public void calculateTotal() throws EmptySaleException {
