@@ -11,7 +11,7 @@ class Main {
             sale2.addProduct(p3);
             sale2.addProduct(p2);
             sale2.calculateTotal();
-            System.out.println(sale2.getTotalPrice());
+            System.out.println("The total price is: " + sale2.getTotalPrice());
             sale1.calculateTotal();
         } catch (EmptySaleException e) {
             System.out.println(e.getMessage());

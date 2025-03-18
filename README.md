@@ -1,58 +1,54 @@
 # java-sprint1-tasca2
-tasca 2 del primer sprint del bootcamp de java-spring it academy
+task 2 of the first sprint of the java-spring bootcamp at it academy
 
-## Nivel 1 - Gestión de Ventas
+## Level 1 - Sales Management
 
-### Ejercicio 1: Sistema de Ventas con Excepciones
-Implementación de un sistema básico de ventas con manejo de excepciones personalizadas.
+### Exercise 1: Sales System with Exceptions
+Implementation of a basic sales system with custom exception handling.
 
-#### Clases principales:
-- **Producto**: Clase que representa un producto con nombre y precio.
-- **Venta**: Clase que gestiona una colección de productos y calcula el total.
-- **VendaBuidaException**: Excepción personalizada que se lanza cuando se intenta calcular el total de una venta sin productos.
+#### Main Classes:
+- **Product**: Class representing a product with name and price.
+- **Sale**: Class managing a collection of products and calculating the total.
+- **EmptySaleException**: Custom exception thrown when attempting to calculate the total of a sale without products.
 
-#### Funcionalidades:
-- Gestión de productos en una venta
-- Cálculo del total de la venta
-- Manejo de excepciones personalizadas
-- Ejemplo de captura de IndexOutOfBoundsException
+#### Features:
+- Management of products in a sale
+- Calculation of the total sale
+- Custom exception handling
+- Example of catching IndexOutOfBoundsException
 
-## Nivel 2 - Sistema de Entrada de Datos
+## Level 2 - Data Entry System
 
-### Ejercicio 1: Clase de Entrada de Datos
-Implementación de una clase para gestionar la entrada de datos por teclado con manejo de excepciones.
+### Exercise 1: Data Entry Class
+Implementation of a class to manage keyboard data entry with exception handling.
 
-#### Clase principal:
-- **Entrada**: Clase con métodos estáticos para leer diferentes tipos de datos.
+#### Main Class:
+- **Entry**: Class with static methods to read different types of data.
 
-#### Métodos implementados:
-Capturando InputMismatchException:
-- `readByte(String mensaje)`
-- `readInt(String mensaje)`
-- `readFloat(String mensaje)`
-- `readDouble(String mensaje)`
+#### Implemented Methods:
+Catching InputMismatchException:
+- `readByte(String message)`
+- `readInt(String message)`
+- `readFloat(String message)`
+- `readDouble(String message)`
 
-Capturando excepciones personalizadas:
-- `readChar(String mensaje)`
-- `readString(String mensaje)`
-- `readYesNo(String mensaje)`
+Catching custom exceptions:
+- `readChar(String message)`
+- `readString(String message)`
+- `readYesNo(String message)`
 
-#### Características:
-- Validación de entrada de datos
-- Manejo de errores de formato
-- Gestión específica para números decimales (coma vs punto)
-- Solicitud repetida de datos hasta entrada válida
+#### Features:
+- Data entry validation
+- Format error handling
+- Specific management for decimal numbers (comma vs dot)
+- Repeated data request until valid input
 
-## Tecnologías
+## Technologies
 - Java
-- Scanner para entrada de datos
-- Manejo de excepciones personalizadas
+- Scanner for data entry
+- Custom exception handling
 
-
-## Instalación
-1. Clonar el repositorio
-2. Importar el proyecto en tu IDE
-3. Ejecutar la clase principal
-
-## Uso
-Cada ejercicio puede ser ejecutado independientemente desde su clase principal correspondiente.
+## Installation
+1. Clone the repository
+2. Import the project into your IDE
+3. Run the main class

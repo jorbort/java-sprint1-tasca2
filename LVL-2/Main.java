@@ -2,7 +2,7 @@ class Main {
 
     public static void main(String[] argv) {
         System.out.println(
-            "Your input is:  " + Entrance.readByte("Please enter a byte")
+            "Your input is:  " + Entrance.readByte("Please enter a byte(a value between -128 and 127)")
         );
         System.out.println(
             "Your input is:  " + Entrance.readChar("Please enter a char")

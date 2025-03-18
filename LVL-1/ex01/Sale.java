@@ -20,7 +20,7 @@ class Sale {
         }
     }
 
-    public Integer getTotalPrice() {
+    public int getTotalPrice() {
         return this.totalPrice;
     }
 }
